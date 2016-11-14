@@ -1,0 +1,3 @@
+SELECT * FROM `import` WHERE class = '2MD2' AND weekday = 3 GROUP BY course ORDER BY hour ASC
+
+SELECT *, COUNT(course) as urenaantal FROM `import` WHERE class = '2MD2' AND weekday = 3 GROUP BY course ORDER BY hour ASC
